@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: white;
+}
+
+header{ 
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 25px;
+    font-variant: small-caps;
+}
+header > p{
+    padding-bottom: 25px;
+}
+header a, footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+header a:hover, footer a:hover{
+    text-decoration: underline;
+    font-size: larger;
+    color: aqua;
+}
+
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 100%vh;
+}
+
+section#m1{
+    background-color: black;
+    background-image: url('../imagens/sololeveling.jpg');
+    box-shadow: inset 6px 6px 13px black ;
+    background-size: center;
+    background-position: right center;
+}
+
+
+section#m2{
+    background-image: url('../imagens/tales.jpeg');
+    box-shadow: inset 6px 6px 13px black ;
+    background-size: center;
+}
+
+
+
+section#m3{
+    background-image: url('../imagens/magicemperor.jpeg');
+    box-shadow: inset 6px 6px 13px black ;
+    background-size: center;
+
+}
+
+#m1 > h2 {
+    background-color: black;
+    color: purple;
+    text-align: center;
+
+}
+#m1 > p{ 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    color: black;
+    padding-right: 100px;
+}
+#m2 > h2{
+    background-color: black;
+    color: orangered;
+    text-align: center;
+}
+#m2 > p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    color: black;
+    padding-right: 100px;
+}
+#m3 > h2{
+    background-color: black;
+    color: red;
+    text-align: center;
+}
+#m3 > p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    color: black;
+    padding-right: 100px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
