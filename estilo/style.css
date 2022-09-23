@@ -38,23 +38,32 @@ header a:hover, footer a:hover{
 section{
     padding-top: 10vh;
     padding-bottom: 10vh;
-    line-height: 2em;
+    line-height: 4em;
     padding-left: 100%vh;
 }
+
+
 
 section#m1{
     background-color: black;
     background-image: url('../imagens/sololeveling.jpg');
     box-shadow: inset 6px 6px 13px black ;
-    background-size: center;
-    background-position: right center;
+    background-size: 96rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 5px;
+    background-attachment: fixed;
 }
 
 
 section#m2{
     background-image: url('../imagens/tales.jpeg');
     box-shadow: inset 6px 6px 13px black ;
-    background-size: center;
+    background-size: 93rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 5px;
+    background-attachment: fixed;
 }
 
 
@@ -63,10 +72,13 @@ section#m3{
     background-image: url('../imagens/magicemperor.jpeg');
     box-shadow: inset 6px 6px 13px black ;
     background-size: center;
-
+    padding: 5px;
+    background-position: right center;
+    background-attachment: fixed;
 }
 
 #m1 > h2 {
+    padding-top: 10px;
     background-color: black;
     color: purple;
     text-align: center;
@@ -77,6 +89,7 @@ section#m3{
     font-style: oblique;
     color: black;
     padding-right: 100px;
+   
 }
 #m2 > h2{
     background-color: black;
